@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Lato-ThinItalic;
+  src: url('fonts/Lato-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: Lato-Thin;
+  src: url('fonts/Lato-Thin.ttf');
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url('fonts/Lato-Light.ttf');
+}
+
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+div{
+  height: 35%;
+  width: 100%;
+  position: fixed;
+  top: 38%;
+  text-align: center;
+}
+
+button {
+  border-radius: 0px;
+  font-family: Lato-Light;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #cccccc 2px;
+  text-decoration: none;
+  background-color: Transparent;
+  margin: 15px;
+  display: inline-block;
+  top: 60%;
+}
+
+button:hover{
+  color: #ffffff;
+  background-color: #00cccc;
+  border: solid #00cccc 2px;
+}
+
+p{
+  font-family: Lato-Thin;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+.sub{
+  font-family: Lato-ThinItalic;
+  font-size: 24px;
+  color: #cccccc;
+  text-align: center;
+  margin: 0;
+  display: block-inline;
+}
+
+canvas{
+  width: 100%;
+  height: 100%
+}
